@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+#filters {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+}
+
+
+#canvas-section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  justify-content: space-around;
+
+}
+
+#canvas-section div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.button {
+  margin: auto;
+
+}
+
+.canvas {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/*  dimension of the canvas to display are canvas' dimension / 4 */
+.iphone55 {
+  width: 310px;
+  height: 552px;
+}
+
+.iphone65 {
+  width: 310px;
+  height: 672px;
+}
+
+.android6 {
+  width: 325px;
+  height: 635px;
+}
