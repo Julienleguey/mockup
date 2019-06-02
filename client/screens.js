@@ -10,7 +10,7 @@ const screens = {
           android6: '.png'
         },
         title: '241 lessons',
-        subtitle: 'Straightforward explanations\nblablabla\nblablabla'
+        subtitle: 'Straightforward explanations'
       },
       { imageId: 1,
         phoneImage: {
@@ -19,7 +19,7 @@ const screens = {
           android6: '.png'
         },
         title: '700 exercises',
-        subtitle: '5500 questions\nblablabla\nblablabla'
+        subtitle: '5500 questions'
       },
       { imageId: 2,
         phoneImage: {
@@ -63,7 +63,8 @@ const screens = {
           iphone65: '.jpg',
           android6: '.png'
         },
-        title: '25% of the content available\nfor free - No ads\nTry it!',
+        // title: '25% of the content available\nfor free - No ads\nTry it!',
+        title: 'No ads\nTry it!',
         subtitle: ''
       }
     ]
@@ -132,7 +133,8 @@ const screens = {
           iphone65: '.jpg',
           android6: '.png'
         },
-        title: '25% du contenu disponible\ngratuitement - Pas de pub\nEssayez !',
+        // title: '25% du contenu disponible\ngratuitement - Pas de pub\nEssayez !',
+        title: 'Pas de pub\nEssayez !',
         subtitle: ''
       }
     ]
@@ -175,7 +177,10 @@ const screens = {
         iphone55: '',
         iphone65: '.jpg',
         android6: '.png'
-      }, title: '25% do conteúdo disponível\nde graça - sem anúncios\nBaixe!', subtitle: '' }
+      },
+        // title: '25% do conteúdo disponível\nde graça - sem anúncios\nBaixe!',
+        title: 'Sem anúncios\nBaixe!',
+        subtitle: '' }
     ]
   },
   es: {
@@ -216,7 +221,11 @@ const screens = {
         iphone55: '',
         iphone65: '.jpg',
         android6: '.png'
-      }, title: '25% del contenido disponible\ngratis - sin anuncios\nDescargar!', subtitle: '' }
+      },
+      // title: '25% del contenido disponible\ngratis - sin anuncios\nDescargar!',
+      title: 'Sin anuncios\nDescargar!',
+      subtitle: ''
+    }
     ]
   },
   zh_tw: {
@@ -257,7 +266,10 @@ const screens = {
         iphone55: '',
         iphone65: '.jpg',
         android6: '.png'
-      }, title: '25% 的課程皆免費，\n且無惱人廣告！\n 快來試用！', subtitle: '' }
+      },
+      // title: '25% 的課程皆免費，\n且無惱人廣告！\n 快來試用！',
+      title: '且無惱人廣告！\n 快來試用！',
+      subtitle: '' }
     ]
   },
   zh_cn: {
@@ -298,7 +310,10 @@ const screens = {
         iphone55: '',
         iphone65: '.jpg',
         android6: '.png'
-      }, title: '25% 的课程皆免费，\n且无恼人广告！\n快来试用！', subtitle: '' }
+      },
+      // title: '25% 的课程皆免费，\n且无恼人广告！\n快来试用！',
+      title: '且无恼人广告！\n快来试用！', 
+      subtitle: '' }
     ]
   }
 };

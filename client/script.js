@@ -85,7 +85,7 @@ function createEmptyCanvas(i, parentCanvas) {
   // creating a link for the button
   const childA = document.createElement('a');
   childA.className = 'button';
-  childA.download = `en_${phoneValue}_${i}.jpg`;
+  childA.download = `${languageValue}_${phoneValue}_${i}.jpg`;
   childA.id = `a-${i}`;
 
   // creating the button for the canvas
