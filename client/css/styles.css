@@ -65,3 +65,28 @@ body {
   width: 325px;
   height: 635px;
 }
+
+.ipad_portrait {
+  width: 512px;
+  height: 683px;
+}
+
+.nexus_7 {
+  width: 375px;
+  height: 587px;
+}
+
+.nexus_9 {
+  width: 500px;
+  height: 725px;
+}
+
+.nexus_10 {
+  width: 550px;
+  height: 785px;
+}
+
+.android_10_anonym {
+  width: 550px;
+  height: 818px;
+}

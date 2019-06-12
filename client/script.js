@@ -90,6 +90,7 @@ function createEmptyCanvas(i, parentCanvas) {
 
   // creating the button for the canvas
   const childButton = document.createElement('button');
+  childButton.className = 'download-button';
   childButton.textContent = "Download";
   // childButton.id = `button-${i}`;
 
@@ -327,4 +328,18 @@ window.onload = function() {
   //event listener for the phone filter
   const phoneFilter = document.querySelector('#phone');
   phoneFilter.addEventListener("change", filterPhone, false);
+}
+
+/********************
+Download all
+********************/
+function downloadAll() {
+  console.log("download everything");
+  const downloadButtons = document.querySelectorAll('.download-button');
+  console.log(downloadButtons);
+  for (let i = 0; i < downloadButtons.length; i++) {
+    // setTimeout(function(){ downloadButtons[i].click(); }, 1000); 
+    downloadButtons[i].click();
+
+  }
 }
