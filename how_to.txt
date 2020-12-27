@@ -1,0 +1,12 @@
+front:
+1/ npm run build => pour créer une build
+2/ sur filezilla, on met sur ovh
+3/ on enlève les fichiers .map (?)
+4/ on met sur github aussi :)
+
+server :
+1/ on fait un commit qu'on met sur github
+2/ on peut détruire la base de données directement depuis heroku
+3/ ajouter une db (un add-on) : https://devcenter.heroku.com/articles/managing-add-ons
+4/ J'ai connecté la branche master de github avec heroku, donc maintenant il suffit d'aller dans "the-big-mockup-project-server" sur heroku,
+dans l'onglet "Deploy", tout en bas on clique sur "deploy branch"
